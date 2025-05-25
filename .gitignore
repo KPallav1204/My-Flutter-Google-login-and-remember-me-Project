@@ -1,0 +1,100 @@
+# ----------------------
+# Flutter & Dart Files
+# ----------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+generated_plugin_registrant.dart
+
+# ----------------------
+# iOS & macOS
+# ----------------------
+ios/Flutter/.last_build_id
+macos/Flutter/ephemeral/
+macos/Flutter/.last_build_id
+*.xcworkspace
+*.xcuserstate
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcuserdatad/
+*.xcsettings
+DerivedData/
+Pods/
+Podfile.lock
+
+# ----------------------
+# Android
+# ----------------------
+android/.gradle/
+android/captures/
+android/app/build/
+*.iml
+.gradle
+/local.properties
+
+# Android Studio will place build artifacts here
+android/app/debug
+android/app/profile
+android/app/release
+
+# ----------------------
+# VS Code
+# ----------------------
+.vscode/
+
+# ----------------------
+# IntelliJ / JetBrains
+# ----------------------
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# ----------------------
+# Miscellaneous
+# ----------------------
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.history
+.svn/
+.build/
+.buildlog/
+.swiftpm/
+migrate_working_dir/
+
+# ----------------------
+# Firebase (optional, if used)
+# ----------------------
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# ----------------------
+# Environment Files (optional, if using flutter_dotenv or similar)
+# ----------------------
+.env
+.env.*
+
+# ----------------------
+# Symbolication / Obfuscation
+# ----------------------
+app.*.symbols
+app.*.map.json
+
+# ----------------------
+# Documentation
+# ----------------------
+**/doc/api/
+
+# ----------------------
+# Localization (optional, if using gen-l10n)
+# ----------------------
+l10n/
+
