@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/KPallav1204/My-Flutter-Google-login-and-remember-me-Project.git
+	tagOpt = --no-tags
+	fetch = +refs/*:refs/*
+	mirror = true
