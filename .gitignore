@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-# Miscellaneous
-=======
-# ----------------------
 # Flutter & Dart Files
-# ----------------------
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
@@ -13,9 +8,7 @@
 build/
 generated_plugin_registrant.dart
 
-# ----------------------
 # iOS & macOS
-# ----------------------
 ios/Flutter/.last_build_id
 macos/Flutter/ephemeral/
 macos/Flutter/.last_build_id
@@ -29,9 +22,7 @@ DerivedData/
 Pods/
 Podfile.lock
 
-# ----------------------
 # Android
-# ----------------------
 android/.gradle/
 android/captures/
 android/app/build/
@@ -39,35 +30,27 @@ android/app/build/
 .gradle
 /local.properties
 
-# Android Studio will place build artifacts here
+# Android Studio build artifacts
 android/app/debug
 android/app/profile
 android/app/release
 
-# ----------------------
 # VS Code
-# ----------------------
 .vscode/
 
-# ----------------------
 # IntelliJ / JetBrains
-# ----------------------
 *.iml
 .idea/
 *.ipr
 *.iws
 
-# ----------------------
 # Miscellaneous
-# ----------------------
->>>>>>> 4683582288b2d8b6b9983fd584d1049e26e105f1
 *.class
 *.log
 *.pyc
 *.swp
 .DS_Store
 .atom/
-<<<<<<< HEAD
 .build/
 .buildlog/
 .history
@@ -75,71 +58,21 @@ android/app/release
 .swiftpm/
 migrate_working_dir/
 
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
-
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
-
-# Symbolication related
-app.*.symbols
-
-# Obfuscation related
-app.*.map.json
-
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
-=======
-.history
-.svn/
-.build/
-.buildlog/
-.swiftpm/
-migrate_working_dir/
-
-# ----------------------
 # Firebase (optional, if used)
-# ----------------------
 android/app/google-services.json
 ios/Runner/GoogleService-Info.plist
 
-# ----------------------
-# Environment Files (optional, if using flutter_dotenv or similar)
-# ----------------------
+# Environment files (optional)
 .env
 .env.*
 
-# ----------------------
 # Symbolication / Obfuscation
-# ----------------------
 app.*.symbols
 app.*.map.json
 
-# ----------------------
 # Documentation
-# ----------------------
 **/doc/api/
 
-# ----------------------
-# Localization (optional, if using gen-l10n)
-# ----------------------
+# Localization (optional)
 l10n/
 
->>>>>>> 4683582288b2d8b6b9983fd584d1049e26e105f1
