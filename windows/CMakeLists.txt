@@ -1,10 +1,23 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
+<<<<<<< HEAD
 project(my_new_one LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
 set(BINARY_NAME "my_new_one")
+=======
+project(my_app LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+add_compile_options("/wd4996")
+
+
+# The name of the executable created for the application. Change this to change
+# the on-disk name of your application.
+set(BINARY_NAME "my_app")
+>>>>>>> 4683582288b2d8b6b9983fd584d1049e26e105f1
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

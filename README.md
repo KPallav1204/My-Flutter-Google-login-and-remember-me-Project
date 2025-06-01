@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # my_new_one
+=======
+# my_app
+>>>>>>> 4683582288b2d8b6b9983fd584d1049e26e105f1
 
 A new Flutter project.
 

@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "my_new_one",
     "short_name": "my_new_one",
+=======
+    "name": "my_app",
+    "short_name": "my_app",
+>>>>>>> 4683582288b2d8b6b9983fd584d1049e26e105f1
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

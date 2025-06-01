@@ -6,18 +6,32 @@ import 'home_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+<<<<<<< HEAD
   await Firebase.initializeApp();
+=======
+  await Firebase.initializeApp(); // Initialize Firebase
+>>>>>>> 4683582288b2d8b6b9983fd584d1049e26e105f1
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
+<<<<<<< HEAD
   final FlutterSecureStorage _secureStorage = const FlutterSecureStorage();
 
   Future<bool> isUserLoggedIn() async {
     String? email = await _secureStorage.read(key: 'email');
     return email != null && email.isNotEmpty;
+=======
+  // Create an instance of secure storage
+  final FlutterSecureStorage _secureStorage = const FlutterSecureStorage();
+
+  // Check if user is already logged in
+  Future<bool> isUserLoggedIn() async {
+    String? email = await _secureStorage.read(key: 'email');
+    return email != null;
+>>>>>>> 4683582288b2d8b6b9983fd584d1049e26e105f1
   }
 
   @override
@@ -33,12 +47,23 @@ class MyApp extends StatelessWidget {
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
             return const Scaffold(
+<<<<<<< HEAD
               body: Center(child: CircularProgressIndicator()),
             );
           } else if (snapshot.hasData && snapshot.data == true) {
             return const HomePage();
           } else {
             return const LoginPage();
+=======
+              body: Center(
+                child: CircularProgressIndicator(), // Show loading
+              ),
+            );
+          } else if (snapshot.hasData && snapshot.data == true) {
+            return const HomePage(); // Logged in ✅
+          } else {
+            return const LoginPage(); // Not logged in ❌
+>>>>>>> 4683582288b2d8b6b9983fd584d1049e26e105f1
           }
         },
       ),
