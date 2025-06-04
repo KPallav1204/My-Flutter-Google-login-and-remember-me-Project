@@ -24,7 +24,7 @@ lib/
 ├── login_screen.dart
 └── home_screen.dart
 
-🛠️ Setup Instructions:-
+## 🛠️ Setup Instructions:-
 
 1. Clone the Repository :-
    git clone https://github.com/KPallav1204/My-Flutter-Google-login-and-remember-me-Project.git
@@ -52,7 +52,7 @@ lib/
 
   flutter run  
 
-📦 Dependencies:-
+## 📦 Dependencies:-
    yaml
 
   firebase_core: ^2.0.0
@@ -60,7 +60,7 @@ lib/
   google_sign_in: ^6.0.0
   flutter_secure_storage: ^9.0.0
   
-🔐 Security:-
+## 🔐 Security:-
 
   Sensitive files like google-services.json are excluded via .gitignore
 
@@ -68,7 +68,7 @@ lib/
 
   No credentials are hardcoded anywhere in the project
 
-🧪 To Do:-
+## 🧪 To Do:-
 
   🔒 Add logout confirmation
 
