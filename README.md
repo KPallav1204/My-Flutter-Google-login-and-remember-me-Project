@@ -76,7 +76,7 @@ lib/
 
   🧬 Add biometric authentication
 
-🙋 Author:-
+## 🙋 Author:-
   Kumar Pallav
   GitHub: @KPallav1204
 
